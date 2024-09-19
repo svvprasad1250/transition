@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.container{
+    margin: 100px 0 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    height: 400px;
+    gap: 0px;
+}
+.container img{
+    width: 13%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #343a40;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover{
+    width: 25%;
+}
+
+@media only screen and (max-width: 425px){
+    .container{
+        width: 50%;
+    }
+}
